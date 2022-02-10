@@ -8,12 +8,11 @@
       {
         "title": "Start a Local Member",
         "text": "step1.md",
-        "code": "start-member.sh"
+        "code": "install-hzcs.sh"
       },
       {
         "title": "Try each option",
-        "text": "step2.md",
-        "code": "install-hzcs.sh"
+        "text": "step2.md"
       }
     ],
     "intro": {
