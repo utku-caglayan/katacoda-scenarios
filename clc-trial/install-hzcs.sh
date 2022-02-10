@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "Installing HZC"
 mkdir .local
 cd local
