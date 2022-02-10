@@ -17,9 +17,10 @@ git checkout main
 go build -o hzc2
 git checkout main
 go build -o hzc3
-echo "alias hzc1='./\$HOME/hazelcast-commandline-client/hzc1" >> ~/.bashrc
-echo "alias hzc2='./\$HOME/hazelcast-commandline-client/hzc2" >> ~/.bashrc
-echo "alias hzc3='./\$HOME/hazelcast-commandline-client/hzc3" >> ~/.bashrc
+cd ..
+echo "alias hzc1='.\$HOME/hazelcast-commandline-client/hzc1" >> ~/.bashrc
+echo "alias hzc2='.\$HOME/hazelcast-commandline-client/hzc2" >> ~/.bashrc
+echo "alias hzc3='.\$HOME/hazelcast-commandline-client/hzc3" >> ~/.bashrc
 source ~/.bashrc
 clear
-# hzc installed!
+echo "hzc installed!"
