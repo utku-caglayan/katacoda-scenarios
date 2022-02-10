@@ -1,3 +1,6 @@
+Wait until you see the message "Installation is finished" on the terminals.
+
+After that you can,
 Click this to start a member on Host-2 terminal
 `docker network create hazelcast-network
 docker pull hazelcast/hazelcast
