@@ -1,5 +1,11 @@
 #!/bin/bash
-clear
+docker network create hazelcast-network
+docker pull hazelcast/hazelcast
+docker run -d\
+-it \
+--network hazelcast-network \
+--rm \
+-p 5701:5701 hazelcast/hazelcast
 echo "Installing HZC"
 mkdir .local
 cd local
@@ -16,4 +22,4 @@ echo "alias hzc2='./\$HOME/hazelcast-commandline-client/hzc2" >> ~/.bashrc
 echo "alias hzc3='./\$HOME/hazelcast-commandline-client/hzc3" >> ~/.bashrc
 source ~/.bashrc
 clear
-echo "Installation is finished!"
+# hzc installed!
