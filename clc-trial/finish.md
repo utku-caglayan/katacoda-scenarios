@@ -1,1 +1,1 @@
-You did it good
+Thanks for participating in this round. Let us know you thoughts here [some-confluence-link]

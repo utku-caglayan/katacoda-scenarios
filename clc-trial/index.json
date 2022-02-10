@@ -6,12 +6,14 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Start a Local Member",
+        "text": "step1.md",
+        "code": "start-member.sh"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Try each option",
+        "text": "step2.md",
+        "code": "install-hzcs.sh"
       }
     ],
     "intro": {
