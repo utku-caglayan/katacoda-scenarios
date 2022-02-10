@@ -21,7 +21,9 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
   "backend": {
     "imageid": "golang:1.14"
   }
