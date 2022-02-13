@@ -10,7 +10,6 @@ echo "Starting Hazelcast"
 docker network create hazelcast-network
 docker pull hazelcast/hazelcast
 docker run \
-  -it \
   --network hazelcast-network \
   --rm \
   -p 5701:5701 hazelcast/hazelcast
