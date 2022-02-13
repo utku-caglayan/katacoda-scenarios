@@ -9,13 +9,13 @@ docker run -d\
 echo "Installing HZC"
 mkdir .local
 cd local
-git clone https://github.com/hazelcast/hazelcast-commandline-client.git
+git clone https://github.com/utku-caglayan/hazelcast-commandline-client.git
 cd hazelcast-commandline-client
-git checkout main
+git checkout persist-opt-1
 go build -o hzc1
-git checkout main
+git checkout persist-opt-2
 go build -o hzc2
-git checkout main
+git checkout persist-opt-3
 go build -o hzc3
 cd ..
 echo "alias hzc1='\$HOME/hazelcast-commandline-client/hzc1" >> ~/.bashrc
