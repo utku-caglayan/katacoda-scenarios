@@ -4,7 +4,6 @@ docker pull hazelcast/hazelcast
 docker run -d\
 -it \
 --network hazelcast-network \
---rm \
 -p 5701:5701 hazelcast/hazelcast &
 echo "Installing HZC"
 mkdir .local
