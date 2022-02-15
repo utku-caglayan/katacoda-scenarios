@@ -1,4 +1,4 @@
-Dockerized Hazelcast and hzc is being installed.
+The environment is being setup completely automatically for you.
 
 This operation will take some time and may look like it is stuck. Please be patient.
 

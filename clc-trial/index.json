@@ -1,12 +1,12 @@
 {
-  "title": "clc trial",
-  "description": "try clc ",
+  "title": "CLC Persistent Maps",
+  "description": "Trying out different persistent name mechanisms",
   "difficulty": "Beginner",
   "time": "20",
   "details": {
     "steps": [
       {
-        "title": "Start a Local Member",
+        "title": "Setup",
         "text": "step1.md",
         "code": "install-hzcs.sh"
       },
