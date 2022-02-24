@@ -10,6 +10,11 @@ cd hzcSQLBrowser
 git checkout termdbms-components
 go build -o browser
 cd ..
+git clone https://github.com/yuce/go-client-sql-sample.git
+cd go-client-sql-sample
+go build -o sqlrun
+./sqlrun -c "hz://" -f ../games_mapping.sql
+./sqlrun -c "hz://" -f ../games_insert.sql
 echo "alias browser='\$HOME/hzcSQLBrowser/browser'" >> ~/.bashrc
 source ~/.bashrc
 clear
