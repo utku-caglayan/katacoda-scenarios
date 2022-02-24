@@ -10,6 +10,7 @@ cd hzcSQLBrowser
 GO111MODULE=on go get golang.org/dl/go1.16.4@latest
 go1.16.4 download
 git checkout termdbms-components
+go mod tidy # do not know why this is necessary
 go1.16.4 build -o browser
 cd ..
 git clone https://github.com/yuce/go-client-sql-sample.git
