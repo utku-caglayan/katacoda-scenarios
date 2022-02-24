@@ -7,6 +7,7 @@ mkdir .local
 cd local
 git clone https://github.com/utku-caglayan/hzcSQLBrowser.git
 cd hzcSQLBrowser
+git checkout termdbms-components
 go build -o browser
 cd ..
 echo "alias browser='\$HOME/hzcSQLBrowser/browser'" >> ~/.bashrc
