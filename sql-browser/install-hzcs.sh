@@ -7,12 +7,14 @@ mkdir .local
 cd local
 git clone https://github.com/utku-caglayan/hzcSQLBrowser.git
 cd hzcSQLBrowser
+GO111MODULE=on go get golang.org/dl/go1.16.4@latest
+go1.16.4 download
 git checkout termdbms-components
-go build -o browser
+go1.16.4 build -o browser
 cd ..
 git clone https://github.com/yuce/go-client-sql-sample.git
 cd go-client-sql-sample
-go build -o sqlrun
+go build ./cmd/sqlrun
 ./sqlrun -c "hz://" -f ../games_mapping.sql
 ./sqlrun -c "hz://" -f ../games_insert.sql
 echo "alias browser='\$HOME/hzcSQLBrowser/browser'" >> ~/.bashrc
